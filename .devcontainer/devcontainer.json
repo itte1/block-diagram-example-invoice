@@ -1,0 +1,18 @@
+{
+    "name": "Ubuntu",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": { "VARIANT": "focal" }
+    },
+    "settings": {
+        "deno.enable": true,
+        "deno.lint": true,
+        "deno.unstable": true,
+		"editor.defaultFormatter": "denoland.vscode-deno",
+		"editor.tabSize": 2
+	},
+	"extensions": [
+        "denoland.vscode-deno"
+    ],
+    "remoteUser": "vscode"
+}
